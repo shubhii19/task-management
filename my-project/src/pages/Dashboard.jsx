@@ -159,7 +159,7 @@ export default function Dashboard() {
                         }
                       >
                         {task.status}
-                      </span>
+                      </span>                        
                     </p>
 
                     {/* STATUS TOGGLE */}
