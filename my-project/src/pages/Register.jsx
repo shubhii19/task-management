@@ -11,7 +11,7 @@ export default function Register() {
   const handleRegister = async (e) => {
     e.preventDefault();
     await axios.post("/auth/register", { name, email, password });
-    navigate("/");
+    navigate("/login");
   };
 
   return (
